@@ -1,6 +1,6 @@
-# Lesrcnn_paddle
+# HDSRNet_paddle
 
-## Lightweight Image Super-Resolution with Enhanced CNN
+## A Heterogeneous Dynamic Convolutional Neural Network for Image Super-resolution
 
 Paddle 复现版本
 
@@ -10,9 +10,9 @@ DIV2K
 ## 训练步骤
 ### train sr
 ```bash
-python train.py -opt config/train/train_lesrcnn.yml
+python train.py -opt config/train/train_HDSRNet.yml
 ```
 ## 测试步骤
 ```bash
-python test.py -opt config/test/test_lesrcnn.yml
+python test.py -opt config/test/test_HDSRNet.yml
 ```
